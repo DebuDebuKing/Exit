@@ -44,7 +44,7 @@ public class PlayerController : MonoBehaviour
 
         if(Health <= 0)
         {
-            SceneManager.LoadScene("Menu");
+            //SceneManager.LoadScene("Menu");
         }
 
         txtt.GetComponent<TextMesh>().text = "Health:" + Health;

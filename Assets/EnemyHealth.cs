@@ -9,7 +9,7 @@ public class EnemyHealth : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-      if(_Health <= 0)
+        if (_Health < 0)
         {
             Destroy(gameObject);
         }
